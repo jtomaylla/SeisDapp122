@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/libs/httpclientandroidlib-4.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bdf7922c7f165bc2f4ec893eaf97e4abe47f97f">
+        <dex dex="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/build/intermediates/pre-dexed/debug/httpclientandroidlib-4.2.1-9e4395a05d8e93769c0efde05761800cadb9562c.jar" />
+    </item>
+    <item
+        jar="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/libs/httpmime-4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0340636480aea12d38b0fb6a6ed1f06c5c79c5a">
+        <dex dex="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/build/intermediates/pre-dexed/debug/httpmime-4.0-47c1da4ac48a6d80b0ac47f4b664e92d2ee401eb.jar" />
+    </item>
+    <item
+        jar="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/libs/javarosa-libraries.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="227b584cd35a3c6db47ab7626e0e844ac2eaea13">
+        <dex dex="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/build/intermediates/pre-dexed/debug/javarosa-libraries-7fa1358c105f019858313d4d37a6fe3a27c75788.jar" />
+    </item>
+    <item
+        jar="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/libs/kxml2-2.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ccbc77a5fd907ef863c29f3596c6f54ffa4e9442">
+        <dex dex="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/build/intermediates/pre-dexed/debug/kxml2-2.3.0-67273f89a1c12a56ba7b8d14f2b418e5651815a9.jar" />
+    </item>
+    <item
+        jar="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/libs/regexp-me.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="27edcd147dfc908a3c3c837a57d3672d52f2f609">
+        <dex dex="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/build/intermediates/pre-dexed/debug/regexp-me-1aea2ca838cc6d5995993371649eb5b7183146cc.jar" />
+    </item>
+    <item
+        jar="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/libs/joda-time-2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="752c0fe8a5b2d6704c9d9d6f06d9abdcacf4045d">
+        <dex dex="/Users/johannfjs/AndroidStudioProjects/collect.opendatakit-v1.2.2 rev 1023/app/build/intermediates/pre-dexed/debug/joda-time-2.0-1f5666696faa5ad08b80526479b5bf713991cbc2.jar" />
+    </item>
+
+</items>
