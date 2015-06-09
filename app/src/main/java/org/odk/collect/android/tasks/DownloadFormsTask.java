@@ -208,7 +208,7 @@ public class DownloadFormsTask extends
     private void modifyXML(String formName) {
         try {
             String rootName = formName.replaceAll("[^\\p{L}\\p{Digit}]", " ");
-            rootName = rootName.replaceAll("\\p{javaWhitespace}+", " ");
+            rootName = rootName.replaceAll("\\p{javaWhitespace}+", "_");
             rootName = rootName.trim();
 
             // proposed name of xml file...
@@ -230,12 +230,13 @@ public class DownloadFormsTask extends
             }
 
             Transformer transformer = TransformerFactory.newInstance().newTransformer();
-            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+            transformer.setOutputProperty(OutputKeys.METHOD, "xml");
+            transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+            transformer.setOutputProperty(OutputKeys.INDENT, "no");
             // initialize StreamResult with File object to save to file
             StreamResult result = new StreamResult(file);
             DOMSource source = new DOMSource(doc);
             transformer.transform(source, result);
-
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -256,7 +257,7 @@ public class DownloadFormsTask extends
 
         // clean up friendly form name...
         String rootName = formName.replaceAll("[^\\p{L}\\p{Digit}]", " ");
-        rootName = rootName.replaceAll("\\p{javaWhitespace}+", " ");
+        rootName = rootName.replaceAll("\\p{javaWhitespace}+", "_");
         rootName = rootName.trim();
 
         // proposed name of xml file...
